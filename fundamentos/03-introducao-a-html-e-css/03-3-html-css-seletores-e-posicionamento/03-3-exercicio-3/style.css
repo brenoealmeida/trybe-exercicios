@@ -1,0 +1,12 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover, a:hover {
+background-color: cadetblue;
+color: grey;
+}
+
+li:active {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
