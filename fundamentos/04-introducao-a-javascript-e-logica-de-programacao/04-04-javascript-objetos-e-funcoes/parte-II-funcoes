@@ -1,0 +1,37 @@
+function verificaPalindrome (param1) {
+    let array = [];
+    let reverse = [];
+    let ref = 0;
+    
+    for (let i = 0; i < param1.length; i += 1){
+        array.push(param1[i]);
+    }
+    
+    for (let r = param1.length - 1; r >= 0; r-=1) {
+        reverse.push(param1[r]);
+    }
+    
+    for (let index = 0; index < array.length; index += 1) {
+        if (array[index] != reverse[index]) {
+            ref += 1;   
+        } else {
+    
+        }
+    }
+    if (ref === 0) {
+        return true;
+    } else {
+        return false;
+    }
+   
+}
+
+let teste = verificaPalindrome('acaiaca');
+console.log (teste);
+
+
+function indiceMaiorValor (array1) {
+    
+}
+
+
