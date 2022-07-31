@@ -101,11 +101,22 @@
                 paragraphs[keys].innerText = paragraphs[keys].innerText.toUpperCase();
             }
         }
+
         upperCase();
 
         /*
         6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
         */
+
+        function exibeTag() {
+            let tagP = document.getElementsByTagName("p");
+
+            for (let keys in tagP) {
+                console.log(tagP[keys].innerHTML);
+            }
+        }
+
+        exibeTag();
 
 
     </script>
